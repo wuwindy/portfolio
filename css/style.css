@@ -411,6 +411,7 @@ body {
 }
 #about .image img {
   max-width: 100%;
+  flex-shrink: 0;
 }
 #about .text {
   flex: 1;
