@@ -352,11 +352,12 @@ template {
 }
 [lang|=en] p {
   font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.6;
 }
 
 body {
   font-size: 14px;
-  background-color: #000000;
+  background-color: #0b0813;
 }
 
 #hero {
@@ -364,6 +365,7 @@ body {
   width: 100%;
   position: relative;
   color: #ffffff;
+  overflow: hidden;
 }
 #hero .wrapper {
   position: absolute;
@@ -395,7 +397,7 @@ body {
 #about {
   display: flex;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #0b0813;
   position: relative;
   width: 100%;
   justify-content: center;
@@ -404,6 +406,8 @@ body {
 #about .image {
   flex: 1;
   padding: 4rem;
+  display: flex;
+  justify-content: center;
 }
 #about .image img {
   max-width: 100%;
@@ -423,6 +427,9 @@ body {
 
 #works {
   position: relative;
+  background-image: url(../images/bc_1.png);
+  background-repeat: repeat-y;
+  background-position: center;
 }
 #works .wrapper {
   width: 100%;
@@ -437,14 +444,20 @@ body {
   padding: 6rem;
   text-align: center;
 }
+#works .wrapper .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
 #works .wrapper .inner .work-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 2vw 5vw;
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -564,6 +577,9 @@ body {
 }
 
 #contact {
+  background-image: url(../images/bc.png);
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 #contact h2 {
@@ -913,31 +929,6 @@ a:hover {
   z-index: 99999;
 }
 
-.cursor2, .cursor3 {
-  height: 36px;
-  width: 36px;
-  z-index: 99998;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.cursor2.hover,
-.cursor3.hover {
-  -webkit-transform: scale(2) translateX(-25%) translateY(-25%);
-  transform: scale(2) translateX(-25%) translateY(-25%);
-  border: none;
-}
-
-.cursor2 {
-  border: 2px solid #fff;
-  box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
-}
-
-.cursor2.hover {
-  background: white;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
-}
-
 @media screen and (max-width: 1200px) {
   .cursor, .cursor2, .cursor3 {
     display: none;
@@ -971,15 +962,15 @@ a:hover {
 
 .header-wrapper {
   position: relative;
-  width: calc(100% - 100px);
-  margin-left: 50px;
+  width: calc(100% - 80px);
+  margin-left: 40px;
 }
 
 .logo-wrap {
   position: absolute;
   display: block;
   left: 0;
-  top: 40px;
+  top: 20px;
   cursor: pointer;
 }
 
@@ -1012,7 +1003,7 @@ a:hover {
   float: right;
   padding-left: 15px;
   padding-top: 15px;
-  margin-top: 26px;
+  margin-top: 20px;
   transition: all 0.3s ease-out;
 }
 
@@ -1505,6 +1496,7 @@ body.light .switch-wrap p span:nth-child(1):before {
 
   #contact h2 {
     font-size: 3rem;
+    padding: 15px;
   }
 }
 @media (max-width: 767px) {
@@ -1534,5 +1526,14 @@ body.light .switch-wrap p span:nth-child(1):before {
 
   .work-white .wrapper .inner .text {
     padding: 1.5rem;
+  }
+
+  .work-white .wrapper .inner .text h2 {
+    font-size: 1.2rem;
+  }
+
+  .header-wrapper {
+    width: calc(100% - 10vw);
+    margin-left: 5vw;
   }
 }

@@ -5,9 +5,9 @@ const particlePropCount = 9;
 const particlePropsLength = particleCount * particlePropCount;
 const rangeY = 100;
 const baseTTL = 50;
-const rangeTTL = 150;
+const rangeTTL = 100;
 const baseSpeed = 0.1;
-const rangeSpeed = 2;
+const rangeSpeed = 1;
 const baseRadius = 1;
 const rangeRadius = 4;
 const baseHue = 220;
@@ -135,7 +135,7 @@ function createCanvas() {
 		b: document.createElement('canvas')
 	};
 	canvas.b.style = `
-		position: fixed;
+		position: relative;
 		top: 0;
 		left: 0;
 		width: 100%;
