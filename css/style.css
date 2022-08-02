@@ -1017,7 +1017,7 @@ footer.note p {
   text-align: justify;
 }
 .work-black .wrapper .inner .text .sec-title .one-column .inner .line {
-  background: rgb(112, 112, 112);
+  background: rgb(255, 255, 255);
   height: 1px;
   width: 5.5rem;
   margin: 30px 0px 50px;
@@ -1034,6 +1034,43 @@ footer.note p {
   text-align: left;
   line-height: 1.6;
   font-family: "Roboto Condensed", sans-serif;
+}
+.work-black .wrapper .inner .text .sec-title .one-column .detail-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.work-black .wrapper .inner .text .sec-title .one-column .detail-card .detail-info {
+  width: 33.33%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  margin: 50px;
+  box-shadow: -10px -10px 0px 0px #eeeeee;
+  border-radius: 10px;
+  -webkit-animation-name: shadow-show;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: shadow-show;
+  animation-duration: 1.5s;
+  transition-timing-function: cubic-bezier(0.795, 0, 0.165, 1);
+}
+.work-black .wrapper .inner .text .sec-title .one-column .detail-card .detail-info img {
+  width: 80px;
+  height: 80px;
+  fill: #ffffff;
+}
+.work-black .wrapper .inner .text .sec-title .one-column .detail-card .detail-info p {
+  font-size: 1.4rem;
+  margin: 20px 0px;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 .work-black .wrapper .inner .text .sec-title .two-column .inner .line {
   background: rgb(112, 112, 112);
@@ -2069,6 +2106,11 @@ body.light .switch-wrap p span:nth-child(1):before {
   .work-white .wrapper .inner .text .sec-title .three-column .inner .content-wrapper .content {
     flex-direction: column;
   }
+
+  .work-white .wrapper .inner .text .sec-title .one-column .detail-card .detail-info {
+    width: 70%;
+    margin: 20px;
+  }
 }
 @media (max-width: 768px) {
   #about {
@@ -2098,6 +2140,14 @@ body.light .switch-wrap p span:nth-child(1):before {
   #contact h2 {
     font-size: 3rem;
     padding: 15px;
+  }
+
+  .work-white .wrapper .inner .text .sec-title .one-column .detail-card {
+    flex-direction: column;
+  }
+
+  .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content .text {
+    padding: 2rem;
   }
 }
 @media (max-width: 767px) {
@@ -2170,7 +2220,7 @@ body.light .switch-wrap p span:nth-child(1):before {
   }
 
   .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .user-image {
-    top: 100%;
+    top: 105%;
     left: 50%;
   }
 
