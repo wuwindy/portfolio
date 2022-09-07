@@ -1,0 +1,18 @@
+#svgContainer {
+  width: 400px;
+  height: 400px;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.btn:hover {
+  background-color: #0356af;
+  border-color: #0356af;
+}
