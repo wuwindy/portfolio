@@ -1,4 +1,10 @@
-#svgContainer {
+#herobanner {
   width: 1000px;
   height: 750px;
+}
+
+
+#features1 {
+  width: 300px;
+  height: 200px;
 }
