@@ -7,7 +7,7 @@
 // });
 
 
-var animations = ['herobanner', 'features1'];
+var animations = ['herobanner', 'features1', 'features2'];
 var i, len = animations.length;
 for (i = 0; i < len; i += 1) {
     var anim;
@@ -29,7 +29,7 @@ for (i = 0; i < len; i += 1) {
 
 
 // anlottie.setSpeed(10);
-anlottie.play();
+// anlottie.play();
 
 // function play() {
 //   anlottie.play();
