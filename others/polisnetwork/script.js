@@ -7,7 +7,7 @@
 // });
 
 
-var animations = ['herobanner', 'features1', 'features2', 'features3',  'features4', 'features5'];
+var animations = ['herobanner', 'features1', 'features2', 'features3',  'features4', 'features5', 'features6'];
 var i, len = animations.length;
 for (i = 0; i < len; i += 1) {
     var anim;
