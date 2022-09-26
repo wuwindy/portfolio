@@ -7,7 +7,7 @@
 // });
 
 
-var animations = ['herobanner', 'features1', 'features2', 'features3',  'features4', 'features5', 'features6', 'pricing-free'];
+var animations = ['herobanner', 'features1', 'features2', 'features3',  'features4', 'features5', 'features6', 'pricing-free', 'pricing-pro'];
 var i, len = animations.length;
 for (i = 0; i < len; i += 1) {
     var anim;
