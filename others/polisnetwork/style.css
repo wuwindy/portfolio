@@ -1,54 +1,70 @@
 #herobanner {
-  width: 1000px;
-  height: 750px;
+    width: 1000px;
+    height: 750px;
 }
 
 
 #features1 {
-  width: 400px;
-  height: 400px;
+    width: 400px;
+    height: 400px;
 }
 
 
 
 #features2 {
-  width: 400px;
-  height: 400px;
+    width: 400px;
+    height: 400px;
 }
 
-#features3{
-  width: 400px;
-  height: 400px;
-}
-
-
-
-#features4{
-  width: 400px;
-  height: 400px;
-}
-
-
-#features5{
-  width: 400px;
-  height: 400px;
-}
-
-
-#features6{
-  width: 400px;
-  height: 400px;
+#features3 {
+    width: 400px;
+    height: 400px;
 }
 
 
 
-#pricing-free{
-  width: 400px;
-  height: 400px;
+#features4 {
+    width: 400px;
+    height: 400px;
 }
 
 
-#pricing-pro{
+#features5 {
+    width: 400px;
+    height: 400px;
+}
+
+
+#features6 {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+#pricing-free {
+    width: 400px;
+    height: 400px;
+}
+
+
+#pricing-pro {
+    width: 400px;
+    height: 400px;
+}
+
+
+.startbussiness-wrapper {
+    position: relative;
+    background-color: #559DF1;
+    border-radius: 10px;
+    width: 90vw;
+    height: 10vh;
+}
+
+#startbussiness {
   width: 400px;
   height: 400px;
+  position: absolute;
+  bottom: 0;
 }
