@@ -55,16 +55,24 @@
 
 
 .startbussiness-wrapper {
-    position: relative;
     background-color: #559DF1;
     border-radius: 10px;
     width: 90vw;
-    height: 10vh;
+    height: 300px;
+    display: flex;
 }
 
+
+.startbussiness-wrapper .text{
+  flex: 70%;
+}
+
+.startbussiness-wrapper .text h2{
+  color: #ffffff;
+}
+
+
+
 #startbussiness {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  bottom: 0;
+    position: absolute;
 }
