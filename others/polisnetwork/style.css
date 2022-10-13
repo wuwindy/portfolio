@@ -101,6 +101,7 @@
     width: 90vw;
     height: 300px;
     display: flex;
+    margin-top: 200px;
 }
 
 
@@ -120,8 +121,8 @@
 
 #subscriberss {
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 70%;
     transform: translate(-50%,-50%);
-    min-width: 80vh;
+    min-width: 50vh;
 }
