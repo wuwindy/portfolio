@@ -3106,4 +3106,8 @@ li a {
   .work-white-b .wrapper .inner .text .center-title {
     font-size: 2.6rem;
   }
+
+  .work-white-b .wrapper .hero-banner {
+    min-height: 250px;
+  }
 }
