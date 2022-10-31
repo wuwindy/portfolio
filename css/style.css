@@ -2868,11 +2868,12 @@ li a {
 
   .work-black-b .wrapper .hero-banner {
     min-height: 300px;
-    margin-top: 60px;
+    padding-top: 60px;
   }
 
   .work-white-b .wrapper .hero-banner {
     min-height: 300px;
+    padding-top: 60px;
   }
 
   .work-white-b .wrapper .inner .text .top-section .card-body {
@@ -3108,6 +3109,6 @@ li a {
   }
 
   .work-white-b .wrapper .hero-banner {
-    min-height: 250px;
+    min-height: 230px;
   }
 }
