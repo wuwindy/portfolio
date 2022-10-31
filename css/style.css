@@ -3109,6 +3109,10 @@ li a {
   }
 
   .work-white-b .wrapper .hero-banner {
-    min-height: 230px;
+    min-height: 180px;
+  }
+
+  .work-black-b .wrapper .hero-banner {
+    min-height: 180px;
   }
 }
