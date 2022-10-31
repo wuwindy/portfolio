@@ -2593,6 +2593,7 @@ footer.note-w p {
 /* '' */
 header {
   display: flex;
+  top: 0;
 }
 
 /*** Navigation Styles ***/
@@ -3101,5 +3102,9 @@ li a {
 
   .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
     left: 50%;
+  }
+
+  .work-white-b .wrapper .inner .text .center-title {
+    font-size: 2.6rem;
   }
 }
