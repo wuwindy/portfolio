@@ -775,6 +775,9 @@ footer.note-w p {
   line-height: 1.2;
   margin-bottom: 15px;
 }
+.work-white .wrapper .inner .text .sec-title .two-column .inner {
+  width: 50%;
+}
 .work-white .wrapper .inner .text .sec-title .two-column .inner .line {
   background: #000000;
   height: 1px;
@@ -1544,6 +1547,9 @@ footer.note-w p {
   margin-bottom: 15px;
   text-align: justify;
 }
+.work-black-b .wrapper .inner .text .sec-title .two-column {
+  width: 50%;
+}
 .work-black-b .wrapper .inner .text .sec-title .two-column .inner .line {
   background: rgb(255, 255, 255);
   height: 1px;
@@ -1935,11 +1941,15 @@ footer.note-w p {
 .work-white-b .wrapper .inner .text .design-section {
   margin-top: 10vh;
 }
-.work-white-b .wrapper .inner .text .design-section .goal-title {
+.work-white-b .wrapper .inner .text .design-section h2.goal-title {
   font-size: 2.6rem;
   line-height: 2;
-  text-transform: uppercase;
   margin-bottom: 2rem;
+  text-align: left;
+}
+.work-white-b .wrapper .inner .text .design-section h3 {
+  font-size: 1.6rem;
+  line-height: 2;
   text-align: left;
 }
 .work-white-b .wrapper .inner .text .design-section .card-column .inner .line {
@@ -2046,6 +2056,22 @@ footer.note-w p {
   margin: 20px 0px;
   line-height: 1.2;
   margin-bottom: 15px;
+}
+.work-white-b .wrapper .inner .text .design-section .two-column-con .left {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.work-white-b .wrapper .inner .text .design-section .two-column-con .left p {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+  padding: 0rem 2rem 0rem 0rem;
+}
+.work-white-b .wrapper .inner .text .design-section .two-column-con .left img {
+  width: 50%;
 }
 .work-white-b .wrapper .inner .text .sec-title {
   padding-bottom: 24px;
@@ -2291,7 +2317,10 @@ footer.note-w p {
 #polisnetwork .three-column-con {
   display: flex;
   flex-direction: row;
-  width: 33.3333333333;
+}
+#polisnetwork .three-column-con > div {
+  width: 33.3333333333%;
+  padding: 1rem;
 }
 
 .close {
