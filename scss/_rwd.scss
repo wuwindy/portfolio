@@ -1,0 +1,334 @@
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+
+    }
+
+    .work-black .wrapper .inner .text .sec-title .three-column .inner .content-wrapper .content {
+        flex-direction: column;
+    }
+
+    .work-white .wrapper .inner .text .sec-title .three-column .inner .content-wrapper .content {
+        flex-direction: column;
+    }
+
+    .work-white .wrapper .inner .text .sec-title .one-column .detail-card .detail-info {
+        width: 70%;
+        margin: 20px;
+    }
+
+    .work-black-b .wrapper .inner .text .top-section .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-black-b .wrapper .inner .text .goal-section .card-body {
+        flex-direction: column;
+    }
+
+    .work-black-b .wrapper .inner .text .outcome-section .card-body {
+        flex-direction: column;
+    }
+
+    .work-black-b .wrapper .inner .text .top-section .card-body .card {
+        margin-right: 0px;
+    }
+
+    .work-black-b .wrapper .inner .text .goal-section .card-body .card {
+        margin-right: 0px;
+    }
+
+    .work-black-b .wrapper .inner .text .outcome-section .card-body .card {
+        margin-right: 0px;
+    }
+
+    .work-white-b .wrapper .inner .text .top-section .detail-card {
+        flex-wrap: wrap;
+    }
+
+    .work-white-b .wrapper .inner .text .top-section .card-body .card {
+        margin-right: 0px;
+    }
+
+    .work-white-b .wrapper .inner .text .top-section .detail-card .detail-info {
+        margin-bottom: 24px;
+        margin-right: 0px;
+        flex: 100%;
+    }
+
+    .work-black-b .wrapper .hero-banner {
+        min-height: 300px;
+        padding-top:60px;
+    }
+
+
+    .work-white-b .wrapper .hero-banner {
+        min-height: 300px;
+        padding-top:60px;
+    }
+
+    .work-white-b .wrapper .inner .text .top-section .card-body {
+        flex-wrap: wrap;
+    }
+
+    .work-white-b .wrapper .inner .text .top-section .card-body .card {
+        flex: 100%;
+    }
+
+    .work-white-b .wrapper .inner .text .goal-section .card-body {
+        flex-wrap: wrap;
+    }
+
+    .work-white-b .wrapper .inner .text .outcome-section .card-body {
+        flex-wrap: wrap;
+    }
+
+    .work-white-b .wrapper .inner .text .goal-section .card-body .card {
+        margin-right: 0px;
+        flex: 100%;
+    }
+
+    .work-white-b .wrapper .inner .text .outcome-section .card-body .card {
+        margin-right: 0px;
+        flex: 100%;
+    }
+
+
+    .work-black-b .wrapper .inner .text .top-section .detail-card {
+        flex-wrap: wrap;
+    }
+
+    .work-black-b .wrapper .inner .text .top-section .detail-card .detail-info {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-right: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    #about .text {
+        padding: 3rem;
+    }
+
+    #focus .wrapper h2 {
+        font-size: 3rem;
+    }
+
+    #works .wrapper .inner .work-wrapper .text h3 {
+        font-size: 3rem;
+    }
+
+    #works .wrapper .inner .work-wrapper .text h2 {
+        font-size: 2rem;
+    }
+
+    #works .wrapper h2 {
+        font-size: 3rem;
+    }
+
+    #contact h2 {
+        font-size: 3rem;
+        padding: 15px;
+    }
+
+    .work-white .wrapper .inner .text .sec-title .one-column .detail-card {
+        flex-direction: column;
+    }
+
+
+
+    .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content .text {
+        padding: 2rem;
+    }
+
+
+
+    .work-black-b .wrapper .inner .text {
+        padding: 3rem;
+    }
+
+    .work-white-b .wrapper .inner .text {
+        padding: 3rem;
+    }
+
+
+    .work-white-b .more-project .card,
+    .work-black-b .more-project .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work-white-b .more-project .card .card-body img,
+    .work-black-b .more-project .card .card-body img {
+        max-width: 100%;
+    }
+
+    .work-white-b .more-project .card,
+    .work-black-b .more-project .card {
+        padding: 3rem;
+    }
+
+    .work-white-b .more-project .card .card-body,
+    .work-black-b .more-project .card .card-body {
+        margin-right: 0px;
+        margin-bottom: 24px;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .content .text {
+        padding: 2rem;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
+        top: 105%;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 767px) {
+    #hero .wrapper .inner h1 {
+        font-size: 4.2rem;
+    }
+
+    #about .image {
+        height: 400px;
+    }
+
+    #about .text {
+        padding: 3rem;
+    }
+
+    #focus .inner .info-wrapper {
+        flex-wrap: wrap;
+    }
+
+    #focus .inner .info-wrapper .info {
+        flex: 100%;
+        max-width: 100%;
+        padding: 2rem;
+    }
+
+    #works .wrapper .inner .work-wrapper .text p {
+        display: none;
+    }
+
+    #works .wrapper .inner .reverse .text {
+        left: 55%;
+    }
+
+    #works .wrapper .inner .work-wrapper .text h3 {
+        font-size: 2rem;
+    }
+
+    #works .wrapper .inner .work-wrapper .text h2 {
+        font-size: 1.4rem;
+    }
+
+    #contact .inner .info-wrapper {
+        flex-direction: column;
+    }
+
+    // content
+    .work-white .wrapper .inner .text {
+        padding: 1.5rem;
+    }
+
+    .work-white .wrapper .inner .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .header-wrapper {
+        width: calc(100% - 10vw);
+        margin-left: 5vw;
+    }
+
+    .work-black .wrapper .inner .text {
+        padding: 2rem;
+    }
+
+    .work-black .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .user-image {
+        top: 110%;
+        left: 50%;
+    }
+
+    .work-black .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content {
+        margin-bottom: 50px;
+    }
+
+    .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .user-image {
+        top: 105%;
+        left: 50%;
+    }
+
+    .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content {
+        margin-bottom: 50px;
+    }
+
+    .work-black-b .wrapper .inner .text span.title h1 {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text span.title h1 {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .goal-section .goal-title {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .outcome-section .goal-title {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
+        left: 50%;
+    }
+
+    .work-white-b .wrapper .inner .text span.title h1 {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .goal-section .goal-title {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .outcome-section .goal-title {
+        font-size: 2.4rem;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
+        left: 50%;
+    }
+
+    .work-white-b .wrapper .inner .text .center-title {
+        font-size: 2rem;
+    }
+
+    .work-white-b .wrapper .hero-banner {
+        min-height: 180px;
+    }
+
+    .work-black-b .wrapper .hero-banner {
+        min-height: 180px;
+    }
+
+
+}

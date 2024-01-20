@@ -9,10 +9,8 @@
 @import "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap";
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -47,12 +45,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -60,10 +55,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -80,12 +73,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -103,10 +93,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -156,14 +144,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -171,8 +155,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -181,8 +164,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -231,18 +213,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -265,10 +241,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -284,10 +258,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -302,10 +274,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -1332,7 +1302,7 @@ footer.note-w p {
   margin-top: 24px;
   margin-bottom: 24px;
   align-self: stretch;
-  background-color: hsla(0deg, 0%, 100%, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.3);
 }
 .work-black-b .wrapper .inner .text .top-section .card-body {
   display: flex;
@@ -1837,7 +1807,7 @@ footer.note-w p {
   margin-top: 24px;
   margin-bottom: 24px;
   align-self: stretch;
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
 }
 .work-white-b .wrapper .inner .text .top-section .card-body {
   display: flex;
@@ -2311,6 +2281,19 @@ footer.note-w p {
   color: #000000;
 }
 
+#polisnetwork #herobanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 80vh;
+}
+#polisnetwork .three-column-con {
+  display: flex;
+  flex-direction: row;
+  width: 33.3333333333;
+}
+
 .close {
   background-color: #8167a9;
   border-radius: 100px;
@@ -2752,7 +2735,6 @@ li a {
   #menu-toggle {
     display: flex;
   }
-
   #menu ul {
     display: flex;
     flex-direction: column;
@@ -2770,7 +2752,6 @@ li a {
     text-align: center;
     z-index: 100;
   }
-
   #menu li a:before {
     content: "";
     position: absolute;
@@ -2781,17 +2762,14 @@ li a {
     background: #ffffff;
     opacity: 0;
   }
-
   #menu ul.showMenu {
     height: 100vh;
   }
-
   #menu ul.showMenu li {
     height: 80px;
     opacity: 1;
     visibility: visible;
   }
-
   #menu li {
     width: 100%;
     height: 80px;
@@ -2800,11 +2778,9 @@ li a {
     margin-left: 0;
     transition: all 0.3s 0.1s;
   }
-
   #menu li a {
     width: 100%;
   }
-
   #menu li:first-child {
     margin-top: 80px;
   }
@@ -2813,99 +2789,77 @@ li a {
   body {
     font-size: 14px;
   }
-
   .work-black .wrapper .inner .text .sec-title .three-column .inner .content-wrapper .content {
     flex-direction: column;
   }
-
   .work-white .wrapper .inner .text .sec-title .three-column .inner .content-wrapper .content {
     flex-direction: column;
   }
-
   .work-white .wrapper .inner .text .sec-title .one-column .detail-card .detail-info {
     width: 70%;
     margin: 20px;
   }
-
   .work-black-b .wrapper .inner .text .top-section .card-body {
     display: flex;
     flex-direction: column;
   }
-
   .work-black-b .wrapper .inner .text .goal-section .card-body {
     flex-direction: column;
   }
-
   .work-black-b .wrapper .inner .text .outcome-section .card-body {
     flex-direction: column;
   }
-
   .work-black-b .wrapper .inner .text .top-section .card-body .card {
     margin-right: 0px;
   }
-
   .work-black-b .wrapper .inner .text .goal-section .card-body .card {
     margin-right: 0px;
   }
-
   .work-black-b .wrapper .inner .text .outcome-section .card-body .card {
     margin-right: 0px;
   }
-
   .work-white-b .wrapper .inner .text .top-section .detail-card {
     flex-wrap: wrap;
   }
-
   .work-white-b .wrapper .inner .text .top-section .card-body .card {
     margin-right: 0px;
   }
-
   .work-white-b .wrapper .inner .text .top-section .detail-card .detail-info {
     margin-bottom: 24px;
     margin-right: 0px;
     flex: 100%;
   }
-
   .work-black-b .wrapper .hero-banner {
     min-height: 300px;
     padding-top: 60px;
   }
-
   .work-white-b .wrapper .hero-banner {
     min-height: 300px;
     padding-top: 60px;
   }
-
   .work-white-b .wrapper .inner .text .top-section .card-body {
     flex-wrap: wrap;
   }
-
   .work-white-b .wrapper .inner .text .top-section .card-body .card {
     flex: 100%;
   }
-
   .work-white-b .wrapper .inner .text .goal-section .card-body {
     flex-wrap: wrap;
   }
-
   .work-white-b .wrapper .inner .text .outcome-section .card-body {
     flex-wrap: wrap;
   }
-
   .work-white-b .wrapper .inner .text .goal-section .card-body .card {
     margin-right: 0px;
     flex: 100%;
   }
-
   .work-white-b .wrapper .inner .text .outcome-section .card-body .card {
     margin-right: 0px;
     flex: 100%;
   }
-
   .work-black-b .wrapper .inner .text .top-section .detail-card {
     flex-wrap: wrap;
   }
-
   .work-black-b .wrapper .inner .text .top-section .detail-card .detail-info {
     width: 100%;
     margin-bottom: 24px;
@@ -2916,76 +2870,60 @@ li a {
   #about {
     flex-direction: column-reverse;
   }
-
   #about .text {
     padding: 3rem;
   }
-
   #focus .wrapper h2 {
     font-size: 3rem;
   }
-
   #works .wrapper .inner .work-wrapper .text h3 {
     font-size: 3rem;
   }
-
   #works .wrapper .inner .work-wrapper .text h2 {
     font-size: 2rem;
   }
-
   #works .wrapper h2 {
     font-size: 3rem;
   }
-
   #contact h2 {
     font-size: 3rem;
     padding: 15px;
   }
-
   .work-white .wrapper .inner .text .sec-title .one-column .detail-card {
     flex-direction: column;
   }
-
   .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content .text {
     padding: 2rem;
   }
-
   .work-black-b .wrapper .inner .text {
     padding: 3rem;
   }
-
   .work-white-b .wrapper .inner .text {
     padding: 3rem;
   }
-
   .work-white-b .more-project .card,
-.work-black-b .more-project .card {
+  .work-black-b .more-project .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .work-white-b .more-project .card .card-body img,
-.work-black-b .more-project .card .card-body img {
+  .work-black-b .more-project .card .card-body img {
     max-width: 100%;
   }
-
   .work-white-b .more-project .card,
-.work-black-b .more-project .card {
+  .work-black-b .more-project .card {
     padding: 3rem;
   }
-
   .work-white-b .more-project .card .card-body,
-.work-black-b .more-project .card .card-body {
+  .work-black-b .more-project .card .card-body {
     margin-right: 0px;
     margin-bottom: 24px;
   }
-
   .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .content .text {
     padding: 2rem;
   }
-
   .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
     top: 105%;
   }
@@ -2994,124 +2932,95 @@ li a {
   #hero .wrapper .inner h1 {
     font-size: 4.2rem;
   }
-
   #about .image {
     height: 400px;
   }
-
   #about .text {
     padding: 3rem;
   }
-
   #focus .inner .info-wrapper {
     flex-wrap: wrap;
   }
-
   #focus .inner .info-wrapper .info {
     flex: 100%;
     max-width: 100%;
     padding: 2rem;
   }
-
   #works .wrapper .inner .work-wrapper .text p {
     display: none;
   }
-
   #works .wrapper .inner .reverse .text {
     left: 55%;
   }
-
   #works .wrapper .inner .work-wrapper .text h3 {
     font-size: 2rem;
   }
-
   #works .wrapper .inner .work-wrapper .text h2 {
     font-size: 1.4rem;
   }
-
   #contact .inner .info-wrapper {
     flex-direction: column;
   }
-
   .work-white .wrapper .inner .text {
     padding: 1.5rem;
   }
-
   .work-white .wrapper .inner .text h2 {
     font-size: 1.2rem;
   }
-
   .header-wrapper {
     width: calc(100% - 10vw);
     margin-left: 5vw;
   }
-
   .work-black .wrapper .inner .text {
     padding: 2rem;
   }
-
   .work-black .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .user-image {
     top: 110%;
     left: 50%;
   }
-
   .work-black .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content {
     margin-bottom: 50px;
   }
-
   .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .user-image {
     top: 105%;
     left: 50%;
   }
-
   .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content {
     margin-bottom: 50px;
   }
-
   .work-black-b .wrapper .inner .text span.title h1 {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text span.title h1 {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .goal-section .goal-title {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .outcome-section .goal-title {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
     left: 50%;
   }
-
   .work-white-b .wrapper .inner .text span.title h1 {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .goal-section .goal-title {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .outcome-section .goal-title {
     font-size: 2.4rem;
   }
-
   .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
     left: 50%;
   }
-
   .work-white-b .wrapper .inner .text .center-title {
     font-size: 2rem;
   }
-
   .work-white-b .wrapper .hero-banner {
     min-height: 180px;
   }
-
   .work-black-b .wrapper .hero-banner {
     min-height: 180px;
   }

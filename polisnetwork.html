@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="work-white-b">
+<body class="work-white-b" id="polisnetwork">
     <header>
         <nav>
             <div id="brand">
@@ -45,7 +45,7 @@
         </nav>
     </header>
     <div class="wrapper">
-        <div class="hero-banner" style="background-image: url('images/polisnetwork_1.jpg');"></div>
+                    <div id="herobanner"></div>
         <div class="inner">
             <div class="text">
                 <span class="title">
@@ -156,24 +156,12 @@
                     </div>
                 </div>
                 <div class="design-section">
-                    <h2 class="goal-title">Animation</h2>
-                    <div class="one-column">
-                        <div class="inner">
-                            <p>Use slider to present the hero banner. And enlarge the text for user.</p>
-                        </div>
-                    </div>
+                    <h2 class="goal-title">Features Animation</h2>
                 </div>
-                <div style="position: relative;width: 1000px;height: 750px;">
-                    <div id="herobanner"></div>
-                </div>
-                <div class="design-section">
-                    <h2 class="goal-title">Features</h2>
-                    <div class="one-column">
-                        <div class="inner">
-                            <p>Use slider to present the hero banner. And enlarge the text for user.</p>
-                        </div>
-                        <img src="images/polisnetwork_6.jpg">
-                    </div>
+                <div class="three-column-con">
+                    <div id="features1"></div>
+                    <div id="features2"></div>
+                    <div id="features3"></div>
                 </div>
                 <div class="design-section">
                     <h2 class="goal-title">Sign in / Sign up</h2>
@@ -226,7 +214,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js'></script>
     <script src="js/date.js"></script>
     <script>
-    var animations = ['herobanner'];
+    var animations = ['herobanner','features1','features2','features3'];
     var i, len = animations.length;
     for (i = 0; i < len; i += 1) {
         var anim;
