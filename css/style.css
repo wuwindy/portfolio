@@ -1537,6 +1537,22 @@ footer.note-w p {
   line-height: 1.2;
   margin-bottom: 15px;
 }
+.work-black-b .wrapper .inner .text .design-section .two-column-con .left {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.work-black-b .wrapper .inner .text .design-section .two-column-con .left p {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+  padding: 0rem 2rem 0rem 0rem;
+}
+.work-black-b .wrapper .inner .text .design-section .two-column-con .left img {
+  width: 50%;
+}
 .work-black-b .wrapper .inner .text .sec-title {
   padding-bottom: 24px;
 }
@@ -2012,6 +2028,12 @@ footer.note-w p {
 .work-white-b .wrapper .inner .text .design-section .one-column .inner p {
   font-size: 1.2rem;
   text-align: left;
+  margin-bottom: 5vh;
+}
+.work-white-b .wrapper .inner .text .design-section .one-column .inner a {
+  font-size: 1.2rem;
+  text-align: left;
+  display: flex;
   margin-bottom: 5vh;
 }
 .work-white-b .wrapper .inner .text .design-section .one-column .inner li {
