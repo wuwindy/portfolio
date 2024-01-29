@@ -58,13 +58,13 @@
 
     .work-black-b .wrapper .hero-banner {
         min-height: 300px;
-        padding-top:60px;
+        padding-top: 60px;
     }
 
 
     .work-white-b .wrapper .hero-banner {
         min-height: 300px;
-        padding-top:60px;
+        padding-top: 60px;
     }
 
     .work-white-b .wrapper .inner .text .top-section .card-body {
@@ -153,6 +153,40 @@
     .work-white .wrapper .inner .text .sec-title .card-column .inner .content-wrapper .content .text {
         padding: 2rem;
     }
+
+    .work-black-b .wrapper .inner .text .design-section .two-column-con .left {
+        padding: 1rem;
+        flex-direction: column;
+
+    }
+
+    .work-black-b .wrapper .inner .text .design-section .two-column-con .left p {
+        width: 100%;
+    }
+
+    .work-black-b .wrapper .inner .text .design-section .two-column-con .left img {
+        width: 100%;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .two-column-con .left {
+        padding: 1rem;
+        flex-direction: column;
+
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .two-column-con .left p {
+        width: 100%;
+    }
+
+    .work-white-b .wrapper .inner .text .design-section .two-column-con .left img {
+        width: 100%;
+    }
+
+
+
+
+
+
 
 
 
@@ -283,19 +317,19 @@
     }
 
     .work-black-b .wrapper .inner .text span.title h1 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .work-white-b .wrapper .inner .text span.title h1 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .work-white-b .wrapper .inner .text .goal-section .goal-title {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
 
     .work-white-b .wrapper .inner .text .outcome-section .goal-title {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
 
     .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
@@ -303,17 +337,21 @@
     }
 
     .work-white-b .wrapper .inner .text span.title h1 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .work-white-b .wrapper .inner .text .goal-section .goal-title {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
 
     .work-white-b .wrapper .inner .text .outcome-section .goal-title {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
 
+
+.work-white-b .wrapper .inner .text .design-section h2.goal-title {
+    font-size: 1.8rem;
+}
     .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
         left: 50%;
     }
