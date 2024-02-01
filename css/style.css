@@ -3006,6 +3006,9 @@ li a {
   #about .image {
     height: 400px;
   }
+  #about .image {
+    padding: 3rem;
+  }
   #about .text {
     padding: 3rem;
   }
