@@ -246,6 +246,11 @@
         height: 400px;
     }
 
+    #about .image {
+        padding: 3rem;
+
+    }
+
     #about .text {
         padding: 3rem;
     }
@@ -349,9 +354,10 @@
     }
 
 
-.work-white-b .wrapper .inner .text .design-section h2.goal-title {
-    font-size: 1.8rem;
-}
+    .work-white-b .wrapper .inner .text .design-section h2.goal-title {
+        font-size: 1.8rem;
+    }
+
     .work-white-b .wrapper .inner .text .design-section .card-column .inner .content-wrapper .user-image {
         left: 50%;
     }
